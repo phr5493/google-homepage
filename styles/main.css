@@ -34,9 +34,17 @@ ul{
     padding: 0;
 }
 
+ul.center{    
+    display: inline-block;
+}
+
 li a{
     float: left;
     display: block;
+    padding: 8px;
+}
+
+li button{
     padding: 8px;
 }
 
