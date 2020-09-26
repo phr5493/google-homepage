@@ -3,33 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Google homepage</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <header>
-      <ul class="top">
+      <ul>
         <li><a>About</a></li>
         <li><a>Store</a></li>
-        <li class="right"><a>Images</a></li>
-        <li class="right"><a>Gmail</a></li>
       </ul>
+      <div id="top-right">
+        <ul>
+          <li><a>Images</a></li>
+          <li><a>Gmail</a></li>
+        </ul>
+        <div id="icons">
+          <img id="menu" src="images/squared-menu.png">
+          <a id="account">NPC</a>
+        </div>
+      </div>
     </header>
-    <div>
-      <img src="images/googlelogo_color_272x92dp.png" class="center">
-      <input type="text" class="center">
-      <ul class="center">
-        <li><button>Google search</button></li>
-        <li><button>I'm feeling lucky</a></li>
-      </ul>
-    </div>
+    <section>
+      <img src="images/googlelogo_color_272x92dp.png">
+      <div id="search">
+        <img id="glass" src="images/search.png">
+        <input type="text" name="search-bar">
+        <img id="voice" src="images/microphone.png">
+      </div>
+      <div id="buttons">
+        <button>Google search</button>
+        <button>I'm feeling lucky</button>
+      </div>
+    </section>
     <footer>
-      <ul class="bottom">
+      <ul>
         <li><a>Advertising</a></li>
         <li><a>Business</a></li>
         <li><a>How search works</a></li>
-        <li class="right"><a>Privacy</a></li>
-        <li class="right"><a>Terms</a></li>
-        <li class="right"><a>Settings</a></li>
+      </ul>
+      <ul>
+        <li><a>Privacy</a></li>
+        <li><a>Terms</a></li>
+        <li><a>Settings</a></li>
       </ul>
     </footer>
   </body>

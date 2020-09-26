@@ -1,54 +1,139 @@
-.right{
-    float: right;
+/*Global*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-size: .9vw;
+    padding: 1vh;
 }
 
-.top{
-    position: fixed;
-    top: 0;
+header, footer{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
-.bottom{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #dddddd;
-}
-
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.floating{
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul{
+ul{ 
+    display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
-ul.center{    
-    display: inline-block;
+li{
+    margin: 10px;
 }
 
-li a{
-    float: left;
+    /*Header*/
+header{
+    position: absolute;
+    top: 0;
+}
+
+header ul{
+    margin: 3px;
+}
+
+        /*Left*/
+
+        /*Right*/
+#top-right{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}
+
+            /*Links*/
+
+            /*Icons*/
+#icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+                /*Menu*/
+#menu{
+    height: 4vh;
+}
+
+                /*Account*/
+#account{
+    background-color: red;
+    height: 2vw;
+    width: 2vw;
+    border: 2px solid red;
+    border-radius: 100%;
+    text-justify: center;
+}
+
+    /*Main*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img, #search, #buttons{
+    margin: 5px;
     display: block;
-    padding: 8px;
 }
 
-li button{
-    padding: 8px;
+        /*Logo*/
+
+        /*Search bar*/
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 5vw;
 }
 
-li a:hover {
-    text-decoration: underline;
+#glass, input, #voice{
+    padding: 1vh;
 }
 
+#glass, #voice{
+    height: 4vh;
+}
+
+            /*Glass*/
+        
+            /*Input*/
+input{
+    font-size: 1vw;
+    width: 30vw;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+input:focus{
+    outline: none;
+}
+
+            /*Voice*/
+
+        /*Buttons*/
+button{
+    display: inline-block;
+    margin: 5px;
+}
+
+    /*Footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #f0f0f0;
+    color: gray;
+}
+
+footer ul{
+    margin: 10px;
+}
+
+        /*Left*/
+
+        /*Right*/
