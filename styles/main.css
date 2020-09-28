@@ -65,6 +65,10 @@ header ul{
     border: 2px solid red;
     border-radius: 100%;
     text-justify: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.2vw;
 }
 
     /*Main*/
